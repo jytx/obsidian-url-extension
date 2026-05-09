@@ -42,6 +42,15 @@
     margin-top: 12px;
 }
 
+.url-webview-opener-edit .btn-edit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.url-webview-opener-edit .btn-fetch-title-hidden {
+    display: none;
+}
+
 /* -- Fullscreen mode -- */
 
 .url-webview-opener.fullscreen-mode .view-header {
